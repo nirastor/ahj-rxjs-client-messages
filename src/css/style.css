@@ -1,0 +1,55 @@
+/* app styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.app {
+  min-height: 100vh;
+  background-color: #aaaaaa;
+  font-size: 18px;
+  font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+}
+
+.app-column {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  min-height: 100vh;
+  box-shadow: 0 0 15px 2px #444444;
+  padding: 40px 40px 0;
+  position: relative;
+}
+
+.app-button {
+  margin-top: 200px;
+  width: 200px;
+  position: relative;
+}
+
+.messages-title {
+  margin-bottom: 20px;
+}
+
+.message {
+  display: flex;
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding: 10px 6px;
+  margin-bottom: -1px
+}
+
+.message-from {
+  width: 300px;
+}
+
+.message-subject {
+  margin-right: auto;
+}
